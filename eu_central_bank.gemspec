@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.description  = "This gem reads exchange rates from the european central bank website. It uses it to calculates exchange rates. It is compatible with the money gem"
 
   s.add_dependency "nokogiri", RUBY_VERSION >= "2.4" ? "~> 1.8" : "~> 1.6.7"
-  s.add_dependency "money", "~> 6.11"
+  s.add_dependency "money", "~> 6.9"
 
   s.add_development_dependency "rspec", "~> 3.5.0"
 
